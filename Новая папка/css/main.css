@@ -1,0 +1,42 @@
+/* .container__1 {
+	display: flex;
+}
+
+.container__2 {
+	display: flex;
+} */
+
+.container {
+	transform: rotate(45deg);
+}
+
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 2.5rem;
+}
+.item {
+	animation: animate 25s linear infinite;
+}
+.img
+	{
+		max-width: 200px;
+		max-height: 300px;
+		padding: 0 30px;
+	}
+.slider:hover .item {
+	animation-play-state: paused;
+}
+
+/* @keyframes animate {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1800px, 0, 0);
+	}
+} */

@@ -14,3 +14,5 @@ The application contains a gallery with photos from Moldova. Photos can be moved
 - Bootstrap
 
 ## GithubPages
+
+[Click](https://salnivlada.github.io/Moldova-in-photos/)
